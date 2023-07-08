@@ -1,0 +1,153 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bài tập lớn OOP</title>
+<link rel="shortcut icon" type="image/png" href="/logo.png"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/38a30191cb.js" crossorigin="anonymous"></script>
+<style>
+body {
+	box-sizing: border-box;
+}
+.quiz_adding {
+	font-family:Times New Roman;
+	font-size: 25px;
+	color:red;
+	padding-left: 5px;
+	padding-right: 5px;  
+	display: inline-block;
+}
+.form_quiz label {
+	width:30%;
+}
+.form_quiz i {
+	margin-right:4px;
+}
+.time input[type="number"] {
+	width: 50px;
+	background-color: #e9ecef;
+	border: 1px solid grey;
+}
+</style>
+</head>
+<body>
+	<!-- 	Header Page      -->
+	<div style="z-index:2; display:flex; height:50px; background-color:#0073a5; padding: 0px 50px; justify-content: space-between; align-items:center; position:sticky; top:0;">
+		<div>
+			<a href="index.jsp"> <i class="fa-solid fa-house" style="color: #ffffff; height: 100%; width:100px;"></i> </a>
+		</div>
+		<div style="color:white; height:100%; display:flex; align-items:center;">
+			<span>Trịnh Văn Hậu 20215363</span>
+			<img alt="" src="https://static2.yan.vn/YanNews/2167221/202102/facebook-cap-nhat-avatar-doi-voi-tai-khoan-khong-su-dung-anh-dai-dien-e4abd14d.jpg" style="height:70%; border-radius:50%; padding: 0px 10px;">
+			<i class="fa-sharp fa-solid fa-caret-down" style="color: #ffffff;"></i>
+			
+		</div>
+	</div>
+	<!-- 	End Header Page  -->
+	
+	<!-- Thong tin IT -->
+	<div class="container" style="border: 1.5px solid #ebebeb; border-radius:5px; height:auto; margin-top:20px; padding-bottom: 15px;">
+		<div style="padding:15px; display:flex; width:100%; justify-content:space-between;">
+			<div>
+				<h2 style="color:#c63834; font-family:Times New Roman;"><b>IT</b></h2>
+				<span><span style="color:red;">Home /</span> My courses / <span style="color:red;"> THI CUỐI KỲ</span></span>
+			</div>
+			<div style="position:relative;">
+				
+				
+			</div>
+		</div>
+	</div>
+<!-- End Thong tin IT -->
+
+<!--  Adding a new quiz -->
+<div class="container" style="border: 1.5px solid #ebebeb; border-radius:5px; height:auto; margin-top:20px; padding: 20px 25px;">
+	
+	<div style="height:30px; margin-bottom:20px;">
+		<img alt="" src="img/test_paper_icon.png" style="height:80%;padding-bottom:8px; ">
+		<span class="quiz_adding">Adding a new Quiz</span>
+		<i class="fa-solid fa-circle-question" style="color: #2addea;"></i>
+	</div>
+	<div style="margin-left:20px; width:100%;">
+		<form class="form_quiz" action="create_quiz" method="post">
+			<div style="margin-bottom:20px;">
+				<i class="fa-solid fa-caret-down" style="color: #0799ca;"></i>
+				<span style="color:red;">General</span>
+			</div>
+			<div>
+			<label for="nameQuiz">Name</label>
+			<i class="fa-solid fa-circle-exclamation" style="color: #ef0b17;"></i>
+			<input style="width:35%;" type="text" id="nameQuiz" name="nameQuiz" required>
+			</div>
+			<br>
+			
+			<div style="display:flex;">
+			<div style="display:inline-block; width:30%;">Description</div>
+			<div style="display:inline-block; margin-left:30px; width:65%; " >
+				<textarea style="display:inline-block; width:80%; height:200px; " class="form-control"  id="textQuiz" name="textQuiz" ></textarea>
+				<div class="form-check">
+					  <input class="form-check-input" type="checkbox" value="" id="display_description" name="display_description"> 
+					  Display description on course page <i class="fa-solid fa-circle-question" style="color: #2addea;"></i>
+				</div>
+			</div>
+			</div>
+			<hr>
+			
+			<div style="margin-bottom:20px;">
+				<i class="fa-solid fa-caret-down" style="color: #0799ca;"></i>
+				<span style="color:red;">Timing</span>
+			</div>
+			
+			<div class="time">
+			<label for="openQuiz">Open the quiz</label>
+			<i class="fa-solid fa-circle-question" style="color: #2addea;"></i>
+			<input type="date" id="dateOpen" name="dateOpen">
+			<input type="time" id="timeOpen" name="timeOpen">
+			<input type="checkbox" id="openEnable" name="openEnable">Enable
+			</div>
+			<br>
+			
+			<div class="time">
+			<label for="closeQuiz">Close the quiz</label>
+			<input style="margin-left:25px;" type="date" id="dateClose" name="dateClose">
+			<input type="time" id="timeClose" name="timeClose">
+			<input type="checkbox" id="closeEnable" name="closeEnable">Enable
+			</div>
+			<br>
+			
+			<div>
+			<label for="timeLimitQuiz">Time limit</label>
+			<i class="fa-solid fa-circle-question" style="color: #2addea;"></i>
+			<input style="width:10%;" type="number" min="0" id="timeLimitQuiz" name="timeLimitQuiz">
+			<select id="timeUnit" name ="timeUnit">
+				<option value="minutes">minutes</option>
+				<option value="hours">hours</option>
+				<option value="days">days</option>
+			</select>
+			<input type="checkbox" id="timeLimitEnable" name="timeLimitEnable" value="yes">Enable
+			</div>
+			<br>
+			
+			<div>
+			<label for="timeExpires">When time expires</label>
+			<i class="fa-solid fa-circle-question" style="color: #2addea;"></i>
+			<input style="width:32%;" type="text" id="timeExpires" value="Open attemps are submitted automatically" disabled>
+			</div>
+			
+			<div style="margin-top:30px;">
+			<label></label>
+			<input style="margin-left:25px;" type="submit" class="btn btn-primary" value="Create">
+			<input type = "reset" class="btn btn-primary" value="Cancel" style="margin-left:15px;">
+			</div>
+		</form>
+	</div>
+	 
+</div>
+<!-- End adding a new quiz -->
+</body>
+</html>

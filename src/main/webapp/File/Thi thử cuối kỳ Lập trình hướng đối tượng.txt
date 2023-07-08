@@ -1,0 +1,144 @@
+Thi thử cuối kỳ Lập trình hướng đối tượng
+
+Question 1:
+OOPEasy1: Trong lập trình hướng đối tượng, khái niệm "kế thừa" (inheritance) có ý nghĩa gì?
+a. Kế thừa cho phép một lớp con kế thừa các thuộc tính và phương thức của một lớp cha.
+b. Kế thừa là quy trình gọi lại một phương thức trong lớp con.
+c. Kế thừa là khả năng một lớp con gọi đến lớp cha của nó.
+d. Kế thừa là quá trình tạo ra các đối tượng từ một lớp hoặc nhiều lớp khác nhau.
+
+Question 2:
+OOPEasy7: Sự đóng gói là:
+a. Inheritance.
+b. Polymorphism.
+c. Encapsulation
+d. Abstraction.
+
+Question 3:
+OOPEasy8: Sự thừa kế là:
+a. Encapsulation
+b. Inheritance.
+c. Polymorphism.
+d. Abstraction.
+
+Question 4:
+OOPEasy9: Tính đa hình là:
+a. Encapsulation
+b. Abstraction.
+c. Inheritance.
+d. Polymorphism.
+
+Question 5:
+OOPEasy10: Trong kế thừa. Lớp mới có thuật ngữ tiếng Anh là:
+a. Base Class.
+b. Derived Class.
+c. Object Class.
+d. Inheritance Class.
+
+Question 6:
+OOPEasy11: Trong kế thừa. Lớp cha có thuật ngữ tiếng Anh là:
+a. Inheritance Class.
+b. Object Class.
+c. Base Class.
+d. Derived Class.
+
+Question 7:
+OOPEasy12: Tính đa hình là:
+a. Khả năng một hàm, thủ tục được sử dụng lại.
+b. Khả năng một thông điệp có thể được truyền lại cho lớp con của nó.
+c. Khả năng một hàm, thủ tục có thể được kế thừa lại.
+d. Khả năng một thông điệp có thể thay đổi cách thể hiện của nó theo lớp cụ thể của đối tượng được nhận thông điệp.
+
+Question 8:
+OOPEasy13: Phương pháp lập trình tuần tự là:
+a. Phương pháp lập trình với việc cấu trúc hóa dữ liệu và cấu trúc hóa chương trình để tránh các lệnh nhảy.
+b. Phương pháp xây dựng chương trình ứng dụng theo quan điểm dựa trên các cấu trúc dữ liệu trừu tượng, các thể hiện cụ thể của cấu trúc và quan hệ giữa chúng..
+c. Phương pháp lập trình được cấu trúc nghiêm ngặt với cấu trúc dạng module.
+d. Phương pháp lập trình với cách liệt kê các lệnh kế tiếp.
+
+Question 9:
+OOPEasy14: Phương pháp lập trình cấu trúc là:
+a. Phương pháp xây dựng chương trình ứng dụng theo quan điểm dựa trên các cấu trúc dữ liệu trừu tượng, các thể hiện cụ thể của cấu trúc và quan hệ giữa chúng..
+b. Phương pháp lập trình được cấu trúc nghiêm ngặt với cấu trúc dạng module.
+c. Phương pháp lập trình với cách liệt kê các lệnh kế tiếp.
+d. Phương pháp lập trình với việc cấu trúc hóa dữ liệu và cấu trúc hóa chương trình để tránh các lệnh nhảy.
+
+Question 10:
+OOPEasy15: Phương pháp lập trình module là:
+a. Phương pháp xây dựng chương trình ứng dụng theo quan điểm dựa trên các cấu trúc dữ liệu trừu tượng, các thể hiện cụ thể của cấu trúc và quan hệ giữa chúng..
+b. Phương pháp lập trình với việc cấu trúc hóa dữ liệu và cấu trúc hóa chương trình để tránh các lệnh nhảy.
+c. Phương pháp lập trình được cấu trúc nghiêm ngặt với cấu trúc dạng module.
+
+d. Phương pháp lập trình với cách liệt kê các lệnh kế tiếp.
+
+Question 11:
+OOPEasy3: Lập trình hướng đối tượng là:
+a. Lập trình hướng đối tượng là phương pháp đặt trọng tâm vào các đối tượng, nó không cho phép dữ liệu chuyển động một cách tự do trong hệ thống; dữ liệu được gắn với các hàm thành phần.
+b. Lập trình hướng đối tượng là phương pháp đặt trọng tâm vào các chức năng, cấu trúc chương trình được xây dựng theo cách tiếp cận hướng chức năng.
+c. Lập trình hướng đối tượng là phương pháp mới của lập trình máy tính, chia chương trình thành các hàm; quan tâm đến chức năng của hệ thống.
+d. Lập trình hướng đối tượng là phương pháp lập trình cơ bản gần với mã máy.
+
+Question 12:
+OOPEasy2: Trong lập trình hướng đối tượng, khái niệm "đóng gói" (encapsulation) có ý nghĩa gì?
+a. Đóng gói là khả năng ẩn các chi tiết bên trong một đối tượng và chỉ tiết lộ giao diện công khai.
+b. Đóng gói là khả năng tạo ra các đối tượng từ một lớp.
+c. Đóng gói là khả năng một đối tượng gọi các phương thức của lớp khác.
+d. Đóng gói là quá trình kết nối các đối tượng lại với nhau.
+
+Question 13:
+OOPEasy4: OOP là viết tắt của:
+a. Object Open Programming.
+b. Object Oriented Programming.
+c. Object Oriented Proccessing.
+d. Open Object Programming
+
+Question 14:
+OOPEasy5:  Tính bao gói là:
+a. Cơ chế không cho phép các thành phần khác truy cập đến bên trong nó.
+b. Cơ chế cho thấy một hàm có thể có nhiều thể hiện khác nhau ở từng thời điểm.
+c. Cơ chế ràng buộc dữ liệu và thao tác trên dữ liệu đó thành một thể thống nhất, tránh được các tác động bất ngờ từ bên ngoài. Thể thống nhất này gọi là đối tượng.
+d. Cơ chế chia chương trình thành các hàm và thủ tục thực hiện các chức năng riêng rẽ.
+
+Question 15:
+OOPEasy6: Tính kế thừa là:
+a. Khả năng sử dụng lại các hàm đã xây dựng.
+b. Khả năng sử dụng lại các kiểu dữ liệu đã xây dựng.
+c. Khả năng xây dựng các lớp mới từ các lớp cũ, lớp mới được gọi là lớp dẫn xuất, lớp cũ được gọi là lớp cơ sở
+d. Tất cả đều đúng.
+
+Question 16:
+OOPEasy16: Đâu không phải là một đặc trưng của OOP?
+a. Trừu tượng
+b. Đa hình
+c. Kế thừa
+d. Đóng gói
+e. Tập hợp
+
+Question 17:
+OOP03Easy18: 1+1=?
+a. 1
+b. 2
+c. 3
+d. 4
+e. 5
+
+Question 18:
+OOPEasy20: 1+1+1+1 = ?
+a. 2
+b. 3
+c. 4
+d. 5
+
+Question 19:
+OOPEasy21: 1+2+3+4+5=
+a. 10
+b. 15
+c. 20
+
+Question 20:
+OOPEasy22: 1+2+3=
+a. 5
+b. 6
+c. 7
+d. 8
+
